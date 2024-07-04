@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Background Image</h2>
+
+<p>A background image for a p element:</p>
+
+<p style="background-image: url('/images/Kadhar\ Ali.jpg');">
+You can specify background images<br>
+for any visible HTML element.<br>
+In this example, the background image<br>
+is specified for a p element.<br>
+By default, the background-image<br>
+will repeat itself in the direction(s)<br>
+where it is smaller than the element<br>
+where it is specified. (Try resizing the<br>
+browser window to see how the<br>
+background image behaves.
+</p>
+<!--Background no reapeat-->
+<style>
+    body {
+      background-image: url('/images/Roadmap-to-become-Android-Developer.png');
+      background-repeat: no-repeat;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h2>Background No Repeat</h2>
+    
+    <p>You can avoid the image from being repeated by setting the background-repeat property to "no-repeat".</p>
+  
+        
+    </body>
+<!--background cover-->
+    <style>
+        body {
+          background-image: url('/images/smiley.gif');
+          background-repeat: no-repeat;
+          background-attachment: fixed;  
+          background-size: cover;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h2>Background Cover</h2>
+        
+        <p>Set the background-size property to "cover" and the background image will cover the entire element, in this case the body element.</p>
+        
+        </body>
+        <style>
+        body {
+            background-image: url('/images/IMG_20210926_163858.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-size: 100% 100%;
+          }
+          </style>
+          </head>
+          <body>
+          
+          <h2>Background Stretch</h2>
+          
+          <p>Set the background-size property to "100% 100%" and the background image will be stretched to cover the entire element, in this case the body element.</p>
+          
+          </body>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/images/cellphone.jpg);
+    background-size: cover;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1{
+    position: static;/*no change by defalut brower*/
+    background-color: red;
+    background-image: url(/images/paul-bill-KTd0YRjdMyg-unsplash.jpg);
+    background-size: cover;
+    
+}
+#box2{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: blue;
+    z-index: 4;
+    background-image: url(/images/paul-bill-KTd0YRjdMyg-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#box3{
+    position: absolute;/*it show all parent elements and hide sister element*/
+    top: 500px;
+    left: 20px;
+    background-color: black;
+    color:white ;
+}
+#box4{
+    position: fixed;
+    background-color: pink;
+    top: 50px;
+    right:0;
+}
+#box5{
+    position: sticky;
+    background-color: brown;
+    top: 0;
+    left: 10px;
+    z-index:5 ;
+}

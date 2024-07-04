@@ -1,0 +1,35 @@
+#loader{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   /* border: 10px solid black;*/
+   border: 20px solid #BE3144;
+   border-top: 20px solid #A9B388;
+ /*  border-left: 10px solid black;
+   border-bottom: 10px solid black;
+   border-right: 10px solid black; */
+
+       /*      Animation code      */
+
+
+ /*  animation-name: spinAnimate;                  
+   animation-duration: 3s;
+   animation-delay: 0s;
+   animation-timing-function: ease-in;
+   animation-iteration-count: infinite;*/
+   animation: spinAnimate 3s ease-in-out 0s infinite;
+ /*  animation-timing-function: steps(5);
+   animation-timing-function: ease-in-out;*/
+
+}
+
+
+@keyframes spinAnimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

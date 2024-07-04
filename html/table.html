@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.myTable {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#hea,#ds {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+#st:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>HTML Table</h2>
+
+<table class="myTable">
+  <tr id="st">
+    <th id="hea">Company</th>
+    <th id="hea">Contact</th>
+    <th id="hea">Country</th>
+    
+  </tr>
+  <tr id="st">
+    <td id="ds">Alfreds Futterkiste</td>
+    <td id="ds">Maria Anders</td>
+    <td id="ds">Germany</td>
+  </tr>
+  <tr id="st">
+    <td id="ds">Centro comercial Moctezuma</td>
+    <td id="ds">Francisco Chang</td>
+    <td id="ds">Mexico</td>
+  </tr>
+  <tr id="st">
+    <td id="ds">Ernst Handel</td>
+    <td id="ds">Roland Mendel</td>
+    <td id="ds">Austria</td>
+  </tr>
+  <tr id="st">
+    <td id="ds">Island Trading</td>
+    <td id="ds">Helen Bennett</td>
+    <td id="ds">UK</td>
+  </tr>
+  <tr id="st">
+    <td id="ds">Laughing Bacchus Winecellars</td>
+    <td id="ds">Yoshi Tannamuri</td>
+    <td id="ds">Canada</td>
+  </tr>
+  <tr id="st">
+    <td id="ds">Magazzini Alimentari Riuniti</td>
+    <td id="ds">Giovanni Rovelli</td>
+    <td id="ds">Italy</td>
+  </tr>
+</table>
+
+
+
+
+<style>
+    table, th, td {
+      border:1px solid black;
+    }
+    </style>
+    <body>
+    
+    <h2>A basic HTML table</h2>
+    
+    <table style="width:100%">
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+    
+    <p>To understand the example better, we have added borders to the table.</p>
+    </body>
+
+<!--Caption Elements-->
+
+<style>
+    table, th, td {
+      border: 1px solid black;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h1>The caption element</h1>
+    
+    <table>
+      <caption>Monthly savings</caption>
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>February</td>
+        <td>$50</td>
+      </tr>
+    </table>
+
+    <!--Colgroup-->
+
+
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h1>The colgroup element</h1>
+        
+        <table>
+          <colgroup>
+            <col span="2" style="background-color:red">
+            <col style="background-color:yellow">
+          </colgroup>
+          <tr>
+            <th>ISBN</th>
+            <th>Title</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td>3476896</td>
+            <td>My first HTML</td>
+            <td>$53</td>
+          </tr>
+          <tr>
+            <td>5869207</td>
+            <td>My first CSS</td>
+            <td>$49</td>
+          </tr>
+        </table>
+
+
+
+   <!--       Col Elements      -->
+
+        <style>
+            table, th, td {
+              border: 1px solid black;
+            }
+            </style>
+            </head>
+            <body>
+            
+            <h1>The col element</h1>
+            
+            <table>
+              <colgroup>
+                <col span="2" style="background-color:red">
+                <col style="background-color:yellow">
+              </colgroup>
+              <tr>
+                <th>ISBN</th>
+                <th>Title</th>
+                <th>Price</th>
+              </tr>
+              <tr>
+                <td>3476896</td>
+                <td>My first HTML</td>
+                <td>$53</td>
+              </tr>
+              <tr>
+                <td>5869207</td>
+                <td>My first CSS</td>
+                <td>$49</td>
+              </tr>
+            </table>
+
+
+
+
+       <!--  THead   TBody  Tfoot-->
+
+       <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+        th, td {
+  border-style: dotted;
+  border-radius: 10px;
+  border-color: #96D4D4;
+}
+        </style>
+        </head>
+        <body>
+        
+        <h1>The thead, tbody, and tfoot elements</h1>
+        
+        <table>
+          <thead>
+            <tr>
+              <th>Month</th>
+              <th>Savings</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>January</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+              <td>February</td>
+              <td>$80</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Sum</td>
+              <td>$180</td>
+            </tr>
+          </tfoot>
+        </table>
+
+
+
+
+        <style>
+            table, th, td {
+              border:1px solid black;
+              border-collapse: collapse;
+            }
+            </style>
+            <body>
+            
+            <h2>Set the height of the second row to 200 pixels</h2>
+            
+            <table style="width:100%">
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th> 
+                <th>Age</th>
+              </tr>
+              <tr style="height:200px">
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+              </tr>
+              <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+              </tr>
+              <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+              </tr>
+            </table>
+
+
+
+           <!--vertical table headers-->
+
+
+            <style>
+                table, th, td {
+                  border: 1px solid black;
+                  border-collapse: collapse;
+                }
+                </style>
+                </head>
+                <body>
+                
+                <h2>Vertical Table Headers</h2>
+                
+                <p>The first column becomes table headers if you set the first table cell in each table row to a TH element:</p>
+                
+                <table style="width:100%">
+                  <tr>
+                    <th>Firstname</th>
+                    <td>Jill</td>
+                    <td>Eve</td>
+                  </tr>
+                  <tr>
+                    <th>Lastname</th>
+                    <td>Smith</td>
+                    <td>Jackson</td>
+                  </tr>
+                  <tr>
+                    <th>Age</th>  
+                    <td>50</td>
+                    <td>94</td>
+                  </tr>
+                </table>
+                
+   <!--Two Headers collapse-->
+
+                <style>
+                    table, th, td {
+                      border: 1px solid black;
+                      border-collapse: collapse;
+                    }
+                    </style>
+                    </head>
+                    <body>
+                    
+                    <h2>A header that spans two columns</h2>
+                    
+                    <p>Use the colspan attribute to have a header span over multiple columns.</p>
+                    
+                    <table style="width:100%">
+                      <tr>
+                        <th colspan="2">Name</th>
+                        <th>Age</th>
+                      </tr>
+                      <tr>
+                        <td>Jill</td>
+                        <td>Smith</td>
+                        <td>50</td>
+                      </tr>
+                      <tr>
+                        <td>Eve</td>
+                        <td>Jackson</td>
+                        <td>94</td>
+                      </tr>
+                    </table>
+
+
+         <!--Cells Padding-->
+
+                    <style>
+                        table, th, td {
+                          border: 1px solid black;
+                          border-collapse: collapse;
+                        }
+                        th, td {
+                          padding: 15px;
+                        }
+                        </style>
+                        </head>
+                        <body>
+                        
+                        <h2>Cellpadding</h2>
+                        <p>Cell padding specifies the space between the cell content and its borders.</p>
+                        
+                        <table style="width:100%">
+                          <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th> 
+                            <th>Age</th>
+                          </tr>
+                          <tr>
+                            <td>Jill</td>
+                            <td>Smith</td>
+                            <td>50</td>
+                          </tr>
+                          <tr>
+                            <td>Eve</td>
+                            <td>Jackson</td>
+                            <td>94</td>
+                          </tr>
+                          <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>80</td>
+                          </tr>
+                        </table>
+                        
+                        <p><strong>Tip:</strong> Try to change the padding to 5px.</p>
+                        
+
+
+
+
+
+
+
+                        <style>
+                            table, th, td {
+                              border: 1px solid black;
+                              border-collapse: collapse;
+                            }
+                            th, td {
+                              padding-top: 10px;
+                              padding-bottom: 20px;
+                              padding-left: 30px;
+                              padding-right: 40px;
+                            }
+                            </style>
+                            </head>
+                            <body>
+                            
+                            <h2>Cellpadding - top - bottom - left - right </h2>
+                            <p>We can specify different padding for all fours sides of the cell content.</p>
+                            
+                            <table style="width:100%">
+                              <tr>
+                                <th>Firstname</th>
+                                <th>Lastname</th> 
+                                <th>Age</th>
+                              </tr>
+                              <tr>
+                                <td>Jill</td>
+                                <td>Smith</td>
+                                <td>50</td>
+                              </tr>
+                              <tr>
+                                <td>Eve</td>
+                                <td>Jackson</td>
+                                <td>94</td>
+                              </tr>
+                              <tr>
+                                <td>John</td>
+                                <td>Doe</td>
+                                <td>80</td>
+                              </tr>
+                            </table>
+
+
+
+          <!--Cell Spacing -->
+
+
+                            <style>
+                                table, th, td {
+                                  border: 1px solid black;
+                                }
+                                table {
+                                  border-spacing: 30px;
+                                }
+                                </style>
+                                </head>
+                                <body>
+                                
+                                <h2>Cellspacing</h2>
+                                <p>Change the space between the cells with the border-spacing property.</p>
+                                
+                                <table style="width:100%">
+                                  <tr>
+                                    <th>Firstname</th>
+                                    <th>Lastname</th> 
+                                    <th>Age</th>
+                                  </tr>
+                                  <tr>
+                                    <td>Jill</td>
+                                    <td>Smith</td>
+                                    <td>50</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Eve</td>
+                                    <td>Jackson</td>
+                                    <td>94</td>
+                                  </tr>
+                                  <tr>
+                                    <td>John</td>
+                                    <td>Doe</td>
+                                    <td>80</td>
+                                  </tr>
+                                </table>
+                                
+
+
+
+              <!--- Cells collapse-->
+
+
+
+                                <style>
+                                    table, th, td {
+                                      border: 1px solid black;
+                                      border-collapse: collapse;
+                                    }
+                                    </style>
+                                    </head>
+                                    <body>
+                                    
+                                    <h2>Cell that spans two columns</h2>
+                                    <p>To make a cell span more than one column, use the colspan attribute.</p>
+                                    
+                                    <table style="width:100%">
+                                      <tr>
+                                        <th colspan="2">Name</th>
+                                        <th>Age</th>
+                                      </tr>
+                                      <tr>
+                                        <td>Jill</td>
+                                        <td>Smith</td>
+                                        <td>43</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Eve</td>
+                                        <td>Jackson</td>
+                                        <td>57</td>
+                                      </tr>
+                                    </table>
+
+
+                       <!--Row span-->
+                                    <style>
+                                        table, th, td {
+                                          border: 1px solid black;
+                                          border-collapse: collapse;
+                                        }
+                                        </style>
+                                        </head>
+                                        <body>
+                                        
+                                        <h2>Cell that spans two rows</h2>
+                                        <p>To make a cell span more than one row, use the rowspan attribute.</p>
+                                        
+                                        <table style="width:100%">
+                                          <tr>
+                                            <th>Name</th>
+                                            <td>Jill</td>
+                                          </tr>
+                                          <tr>
+                                            <th rowspan="2">Phone</th>
+                                            <td>555-1234</td>
+                                          </tr>
+                                          <tr>
+                                            <td>555-8745</td>
+                                          </tr>
+                                        </table>
+
+
+      <!--Zebra striped Table-->
+
+
+                                        <style>
+                                            table {
+                                              border-collapse: collapse;
+                                              width: 100%;
+                                            }
+                                            
+                                            th, td {
+                                              text-align: left;
+                                              padding: 8px;
+                                            }
+                                            
+                                            tr:nth-child(even) {
+                                              background-color: #D6EEEE;
+                                            }
+                                            </style>
+                                            </head>
+                                            <body>
+                                            
+                                            <h2>Zebra Striped Table</h2>
+                                            <p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
+                                            
+                                            <table>
+                                              <tr>
+                                              <th>First Name</th>
+                                              <th>Last Name</th>
+                                              <th>Points</th>
+                                              </tr>
+                                              <tr>
+                                              <td>Peter</td>
+                                              <td>Griffin</td>
+                                              <td>$100</td>
+                                              </tr>
+                                              <tr>
+                                              <td>Lois</td>
+                                              <td>Griffin</td>
+                                              <td>$150</td>
+                                              </tr>
+                                              <tr>
+                                              <td>Joe</td>
+                                              <td>Swanson</td>
+                                              <td>$300</td>
+                                              </tr>
+                                              <tr>
+                                              <td>Cleveland</td>
+                                              <td>Brown</td>
+                                              <td>$250</td>
+                                              </tr>
+                                            </table>
+
+
+
+
+                                            <style>
+                                                table, th, td {
+                                                  border: 1px solid black;
+                                                  border-collapse: collapse;
+                                                }
+                                                
+                                                th:nth-child(even),td:nth-child(even) {
+                                                  background-color: #D6EEEE;
+                                                }
+                                                tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+                                                </style>
+                                                </head>
+                                                <body>
+                                                
+                                                <h2>Striped Table</h2>
+                                                <p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
+                                                
+                                                <table style="width:100%">
+                                                  <tr>
+                                                    <th>MON</th>
+                                                    <th>TUE</th>
+                                                    <th>WED</th>
+                                                    <th>THU</th>
+                                                    <th>FRI</th>
+                                                    <th>SAT</th>
+                                                    <th>SUN</th>
+                                                  </tr>
+                                                  <tr>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                  </tr>
+                                                </table>
+
+
+
+                                                <!--Hoverable Table-->
+                                            
+                                                <style>
+                                                    table {
+                                                      border-collapse: collapse;
+                                                      width: 100%;
+                                                    }
+                                                    
+                                                    th, td {
+                                                      padding: 8px;
+                                                      text-align: left;
+                                                      border-bottom: 1px solid #DDD;
+                                                    }
+                                                    
+                                                    tr:hover {background-color: #D6EEEE;}
+                                                    </style>
+                                                    </head>
+                                                    <body>
+                                                    
+                                                    <h2>Hoverable Table</h2>
+                                                    <p>Move the mouse over the table rows to see the effect.</p>
+                                                    
+                                                    <table>
+                                                      <tr>
+                                                        <th>First Name</th>
+                                                        <th>Last Name</th>
+                                                        <th>Points</th>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>Peter</td>
+                                                        <td>Griffin</td>
+                                                        <td>$100</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>Lois</td>
+                                                        <td>Griffin</td>
+                                                        <td>$150</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>Joe</td>
+                                                        <td>Swanson</td>
+                                                        <td>$300</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>Cleveland</td>
+                                                        <td>Brown</td>
+                                                        <td>$250</td>
+                                                      </tr>
+                                                    </table>
+                                                    
+                                                    </body>
+
+
+
+                                                </body>
+                                            
+                                            </body>
+
+
+
+
+
+
+
+
+
+
+                                        </body>
+
+
+                                    </body>
+
+
+                                </body>
+                            
+                            </body>
+
+
+
+
+
+
+
+                        </body>
+
+
+
+
+                    </body>
+
+
+
+                </body>
+
+
+
+
+            
+            </body>
+
+
+        
+        </body>
+
+
+
+
+            
+            </body>
+        
+        </body>
+
+
+        
+    </body>
+
+ 
+
+
+   
+</body>
+ 
+
+    
+
+</html>
